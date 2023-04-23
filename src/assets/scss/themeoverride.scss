@@ -1,0 +1,47 @@
+.v-application{
+  .v-text-field--filled.v-input--dense.v-text-field--single-line > .v-input__control > .v-input__slot,
+  .v-text-field--filled.v-input--dense.v-text-field--outlined > .v-input__control > .v-input__slot, 
+  .v-text-field--filled.v-input--dense.v-text-field--outlined.v-text-field--filled > .v-input__control > .v-input__slot, 
+  .v-text-field--full-width.v-input--dense.v-text-field--single-line > .v-input__control > .v-input__slot, 
+  .v-text-field--full-width.v-input--dense.v-text-field--outlined > .v-input__control > .v-input__slot, 
+  .v-text-field--full-width.v-input--dense.v-text-field--outlined.v-text-field--filled > .v-input__control > .v-input__slot, 
+  .v-text-field--outlined.v-input--dense.v-text-field--single-line > .v-input__control > .v-input__slot, 
+  .v-text-field--outlined.v-input--dense.v-text-field--outlined > .v-input__control > .v-input__slot, 
+  .v-text-field--outlined.v-input--dense.v-text-field--outlined.v-text-field--filled > .v-input__control > .v-input__slot{
+    min-height: 32px;
+  }
+  .v-text-field--outlined fieldset{
+    border-radius: 0;
+  }
+  // .v-text-field input{
+  //   font-size: 14px;
+  // }
+  .v-text-field--outlined.v-input--is-focused fieldset, .v-text-field--outlined.v-input--has-state fieldset{
+    border-width: 1px;
+  }
+  .v-btn:not(.v-btn--round).v-size--default{
+    height:32px;
+    display: block;
+  }
+  .v-icon.mdi-checkbox-blank-outline,
+  .v-input--selection-controls__input .v-icon {
+    font-size: 20px;
+    display: block;
+  }
+  .v-input--selection-controls{
+    padding-top:0;
+  }
+  .v-input--checkbox .v-input--selection-controls__ripple{
+    display: none;
+  }
+  .page-container{
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  a{
+    text-decoration: none;
+  }
+  .cursor-pointer{
+    cursor: pointer;
+  }
+}
